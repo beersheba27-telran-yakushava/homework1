@@ -18,7 +18,7 @@ def distinct_random_numbers(min, max, size):
     #TODO
     numbers = []
 
-    while len(numbers) <= size:
+    while len(numbers) < size:
         num = random.randint(min, max)
 
         if exists(numbers, num):
